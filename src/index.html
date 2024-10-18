@@ -17,90 +17,7 @@
     <meta property="og:image:alt" content="pet.pm - Paste/Web/File Proxy">
     <meta property="og:type" content="website">
     <title>pet.pm</title>
-    <style>
-        /* Darkened checkerboard background with smoother squares and softer pinkish (#ee9ca7) */
-        html {
-            padding: 0;
-            margin: 0;
-            height: 100%;
-            background-color: #1a1a1a; /* Darker background */
-            background-image: linear-gradient(45deg, rgba(238, 156, 167, 0.2) 25%, transparent 25%),
-                              linear-gradient(-45deg, rgba(238, 156, 167, 0.2) 25%, transparent 25%),
-                              linear-gradient(45deg, transparent 75%, rgba(238, 156, 167, 0.2) 75%),
-                              linear-gradient(-45deg, transparent 75%, rgba(238, 156, 167, 0.2) 75%);
-            background-size: 120px 120px; /* Increased size for smoother transition */
-            background-position: 0 0, 0 60px, 60px -60px, -60px 0px;
-            animation: scrolling 15s linear infinite;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Arial', sans-serif;
-            color: #fff;
-        }
-
-        /* Adding slight shadow and softening the edge */
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            background-image: inherit; /* Copying the background */
-            filter: blur(1px); /* Applying a subtle blur effect */
-        }
-
-        /* Animation to make the background scroll diagonally */
-        @-webkit-keyframes scrolling {
-            from { background-position: 0 0; }
-            to { background-position: -600px 600px; }
-        }
-
-        .brand {
-            text-align: center;
-            z-index: 1; /* To make sure content appears above the background */
-        }
-
-        .brand-logo img {
-            width: 120px;
-        }
-
-        .brand-announcement {
-            font-size: 1.6rem;
-            color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the text */
-            margin-top: 15px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .footer {
-            position: absolute;
-            bottom: 10px;
-            text-align: center;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.6);
-            z-index: 1;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        .footer a {
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .footer a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 
     <script>
         var originalTitle = " pet.pm - Paste/Web/File Proxy ";
@@ -205,6 +122,10 @@
 
     <footer class="footer">
         <p>&copy; 2024 pet.pm</p>
+        <a href="./services/">Services</a> |
+        <a href="./about/">About</a> |
+        <a href="./contact/">Contact</a>
+        <div style="width: 100%; height: 1px; background-color: #cccccc92; margin: 2px 0;"></div>
         <a href="./terms.txt">Terms of Service</a> |
         <a href="./privacy.txt">Privacy Policy</a> |
         <a href="./transparency.txt">Transparency Report</a>
