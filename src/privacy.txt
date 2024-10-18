@@ -1,0 +1,24 @@
+===============================================================================
+                                  Privacy Policy
+===============================================================================
+
+1. Files, pastes, and proxy sessions are stored temporarily, and will expire based on the time limits set during upload or session creation.
+
+2. pet.pm does not scan files or pastes for personal information. 
+
+3. Your IP address and user agent are stored for security reasons while using any service, including file hosting, proxy usage, and paste sharing. 
+   This information is not shared with third parties unless required by law enforcement.
+
+4. pet.pm will disclose if any information is requested by law enforcement. 
+   See the transparency report for more information.
+
+===============================================================================
+                                Important Notices
+===============================================================================
+
+By using pet.pm, you agree to the privacy policy as outlined. 
+
+Thank you for trusting pet.pm for temporary file hosting, web proxy services, and paste sharing.
+This policy is subject to change at any time.
+
+| Last updated: 09/10/2024 |
